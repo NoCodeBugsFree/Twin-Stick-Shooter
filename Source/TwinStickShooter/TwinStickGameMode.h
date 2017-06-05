@@ -51,6 +51,7 @@ private:
 	float SpawnDelay = 5.f;
 
 	/** Spawn Timer  */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AAA", meta = (AllowPrivateAccess = "true"))
 	FTimerHandle SpawnTimer;
 	
 	/** Total Character's Score  */
